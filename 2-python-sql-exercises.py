@@ -48,7 +48,7 @@ def scrape_past_year_data(api_scraper_func):
 
     while end_date < today:
         # Scrape data for the current window
-        meteo_data = api_scraper_func(start_date, end_date)
+        meteo_data = api_scraper_func(start_date, end_date - datetime.timedelta(days=1))
 
         # Convert the list of dictionaries to a DataFrame
         df = pd.DataFrame(meteo_data)
