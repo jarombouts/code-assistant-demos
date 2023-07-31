@@ -11,3 +11,4 @@ Step 1:
 
 Step 2:
 - Follow instructions in exercise notebooks 1 (python data science) and 2 (python sql transformations)
+  (or open the .py files if you prefer working in bare python modules)

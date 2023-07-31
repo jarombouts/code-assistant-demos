@@ -1,2 +1,4 @@
 .idea
 .python-version
+__pycache__/
+meteo_data.db
